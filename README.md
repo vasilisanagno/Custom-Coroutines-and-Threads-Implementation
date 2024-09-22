@@ -1,6 +1,6 @@
 # Custom Coroutines and Threads Implementation
 
-This C application demonstrates the development of a custom coroutine system and the implementation of thread management using coroutines. The application does not rely on external libraries such as `pthread` and instead creates its own coroutines for concurrent programming, followed by building a thread management system on top of these coroutines.
+This C application demonstrates the development of a custom coroutine system and the implementation of thread management using custom coroutines. The application does not rely on external libraries such as `pthread` and instead creates its own coroutines for concurrent programming, followed by building a thread management system on top of these coroutines.
 
 ## Table of Contents
 
