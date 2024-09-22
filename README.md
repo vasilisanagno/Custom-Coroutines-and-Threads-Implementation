@@ -15,7 +15,7 @@ This C application demonstrates the development of a custom coroutine system and
 
 ## Introduction
 
-This project focuses on developing concurrent programming capabilities in C by first implementing custom coroutines and then using those coroutines to build a thread management system. Unlike typical thread libraries (e.g., pthread), the threads in this project are implemented on top of coroutines, ensuring manual control over thread switching and synchronization.
+This project showcases a self-developed coroutine system in C, designed without external libraries like pthread. By crafting coroutines from the ground up, it introduces a custom solution for concurrent programming. The coroutines then serve as the foundation for building a custom thread management system, enabling precise control over thread switching and synchronization.
 
 ## Features
 
